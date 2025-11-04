@@ -1,0 +1,17 @@
+# ---- Python virtual environment ----
+.venv/
+__pycache__/
+*.pyc
+
+# ---- dbt build artifacts ----
+target/
+dbt_packages/
+logs/
+
+# ---- OS / IDE junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ---- Credentials ----
+profiles.yml
