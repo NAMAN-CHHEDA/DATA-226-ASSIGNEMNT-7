@@ -1,0 +1,13 @@
+build_mau:
+  outputs:
+    dev:
+      account: SFEDU02-LVB17920
+      database: USER_DB_GECKO
+      password: "NamanChheda@2003"
+      role: TRAINING_ROLE
+      schema: analytics
+      threads: 1
+      type: snowflake
+      user: GECKO
+      warehouse: GECKO_QUERY_WH
+  target: dev
